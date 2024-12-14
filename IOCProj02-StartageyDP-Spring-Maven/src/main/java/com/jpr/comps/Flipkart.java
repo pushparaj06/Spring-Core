@@ -10,6 +10,11 @@ import org.springframework.stereotype.Component;
 @Component("fpkt")
 public final class Flipkart {
 	
+	public Flipkart() {
+		
+		System.out.println("Flipkart:0-arg Constructor");
+	}
+
 	//HAS-A Relation
 	@Autowired
 	@Qualifier("dtdc")

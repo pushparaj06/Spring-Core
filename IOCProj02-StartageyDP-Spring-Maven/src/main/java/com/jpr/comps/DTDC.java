@@ -7,6 +7,10 @@ import org.springframework.stereotype.Component;
 
 public final class  DTDC implements Courier {
 
+	public DTDC() {
+	System.out.println("DTDC:0-arg constructor ");
+	}
+
 	@Override
 	public String deliver(int oid) {
 		

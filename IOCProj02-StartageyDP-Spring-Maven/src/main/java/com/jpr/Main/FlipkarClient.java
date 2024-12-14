@@ -14,8 +14,11 @@ public class FlipkarClient {
 	
 		AnnotationConfigApplicationContext ctx= new AnnotationConfigApplicationContext(AppConfig.class);
 		
+		
+		
+		
 		//get Flipkart class Object
-		Flipkart fpkrt = ctx.getBean("fpkt",Flipkart.class);
+	/*	Flipkart fpkrt = ctx.getBean("fpkt",Flipkart.class);
 		
 		//Invoke the Business Method
 		
@@ -23,7 +26,7 @@ public class FlipkarClient {
 										 new double[] {5000.0,12000,24000});
 		
 		
-	 System.out.println(resultMsg);
+	 System.out.println(resultMsg);  */
 }
 
 }
